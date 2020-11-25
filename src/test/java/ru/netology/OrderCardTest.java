@@ -18,5 +18,4 @@ class OrderCardTest {
         $("button").click();
         $("p").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
     }
-
 }
